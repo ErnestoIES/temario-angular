@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765358172815</updated>
-      <workItem from="1765358174174" duration="639000" />
+      <workItem from="1765358174174" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="Rama Grupo04">
       <option name="closed" value="true" />
@@ -92,7 +92,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765358710888</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rama Grupo04">
+      <option name="closed" value="true" />
+      <created>1765358825537</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765358825537</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rama Grupo04">
+      <option name="closed" value="true" />
+      <created>1765358841680</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765358841680</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Rama Grupo04">
+      <option name="closed" value="true" />
+      <created>1765359016871</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765359016871</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
