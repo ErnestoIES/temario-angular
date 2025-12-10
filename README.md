@@ -7,17 +7,17 @@ Bienvenido al repositorio de la asignatura. El objetivo es crear un "Libro de Te
 
 **Consulta esta tabla antes de empezar.** Solo puedes trabajar en el tema que se te ha asignado.
 
-| Tema / Carpeta a crear | Título del Contenido | Grupo Asignado |
-| :--- | :--- | :--- |
-| `Tema_00_Fundamentos` | Fundamentos Ts y Angular | **TODOS** |
-| `Tema_01_Instalación_y_Estructura` | Instalación y estructura | **Grupo 03** |
-| `Tema_02_Componentes` | Componentes | **Grupo 02** |
-| `Tema_03_Signals_Y_Control_Flow` | Signals y control flow | **Grupo 04** |
-| `Tema_04_Comunicacion` | Comunicación (Inputs/Outputs - Mover datos entre componentes). | **Grupo 01** |
+| Tema / Carpeta a crear              | Título del Contenido | Grupo Asignado |
+|:------------------------------------| :--- | :--- |
+| `Tema_00_Fundamentos`               | Fundamentos Ts y Angular | **TODOS** |
+| `Tema_01_Instalación_y_Estructura`  | Instalación y estructura | **Grupo 03** |
+| `Tema_02_Componentes`               | Componentes | **Grupo 02** |
+| `Tema_03_Signals_Y_Control_Flow`    | Signals y control flow | **Grupo 04** |
+| `Tema_04_Comunicacion`              | Comunicación (Inputs/Outputs - Mover datos entre componentes). | **Grupo 01** |
 | `Tema_05_Inyeccion_de_dependencias` | Inyección de Dependencias y Servicios | **Grupo 03** |
-| `Tema_06_Formularios` | Formularios | **Grupo 02** |
-| `Tema_07_Enrutamiento` | Enrutamiento | **Grupo 04** |
-| `Tema_07_HTTP` | HTTP |  **Grupo 01** |
+| `Tema_06_Formularios`               | Formularios | **Grupo 02** |
+| `Tema_07_Enrutamiento`              | Enrutamiento | **Grupo 04** |
+| `Tema_08_HTTP`                      | HTTP |  **Grupo 01** |
 
 
 ---
