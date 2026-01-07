@@ -113,3 +113,14 @@ El ciclo de vida gestiona la creación, renderizado y destrucción del component
 | **`ngAfterViewInit`** | Ocasional | Úsalo solo si necesitas manipular el DOM manualmente o inicializar librerías JS externas. |
 
 > **Arquitectura:** Piensa en la aplicación como un árbol de componentes donde los datos fluyen hacia abajo (Inputs) y los eventos fluyen hacia arriba (Outputs).
+
+## 5. Generación Eficiente vía Angular CLI
+Aunque comprender el código es vital, en un entorno profesional utilizamos la **Angular CLI** para crear componentes. Esto garantiza consistencia, nomenclatura correcta y estructura de carpetas automática.
+
+**Comando Básico:**
+Para generar un componente estándar (con archivos `.html`, `.css` y `.ts` separados):
+
+```bash
+ng generate component nombre-del-componente
+# O la versión corta (alias):
+ng g c nombre-del-componente
