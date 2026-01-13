@@ -1,10 +1,40 @@
-# 🚀 Angular Moderno: Signals & Control Flow
+# Angular Moderno: Signals & Control Flow
 
 ## 1. ¿Qué son los Signals?
 
 Los **Signals** son una primitiva reactiva que envuelve un valor y notifica automáticamente a quienes lo usan cuando ese valor cambia.
 
 Los Signals permiten que Angular sepa **exactamente qué parte de la pantalla debe actualizarse**.
+
+### Tipos 
+### 1.Signals de Escritura)
+Son las "señales base". Tú tienes el control total sobre ellas: puedes leer su valor, pero también cambiarlo directamente.
+
+Cómo se crean: miSignal = signal(valorInicial);
+
+Sus herramientas:
+
+.set(nuevoValor): Reemplaza el valor por completo.
+
+.update(v => v + 1): Cambia el valor basándose en el anterior.
+
+
+### 2. Computed Signals (Señales Computadas)
+Son señales que dependen de otras. Su valor se calcula automáticamente a partir de otros Signals.
++1
+
+Cómo se crean: doble = computed(() => miSignal() * 2);
+
+### 3. Los "Efectos" (effect)
+Aunque técnicamente no son un "tipo de dato" que guarde un valor para mostrar en el HTML, son parte esencial del ecosistema.
+
+Un effect es una función que se ejecuta cada vez que uno o más Signals dentro de él cambian.
+
+¿Para qué sirven?
+
+Sincronizar datos con el localStorage.
+
+Hacer logs (imprimir en consola) para depurar.
 
 ### Eficiencia
 Angular **no revisa toda la aplicación**, solo el componente que *escucha* el Signal.
