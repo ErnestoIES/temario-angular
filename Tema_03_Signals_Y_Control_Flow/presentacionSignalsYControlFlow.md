@@ -82,6 +82,7 @@ Es mucho más intuitivo que el antiguo *ngIf. Ahora parece código de programaci
 
 HTML
 
+```ts
 @if (contador() > 10) {
   <p>¡El contador es alto!</p>
 } @else if (contador() > 0) {
@@ -89,13 +90,15 @@ HTML
 } @else {
   <p>El contador está en cero.</p>
 }
+```
+
 Ventaja: Es muy fácil de leer y permite usar el @else de forma directa.
 
 ### 2. @for (Bucles/Listas)
 Este es el que más ha mejorado, especialmente en rendimiento.
 
 HTML
-
+```ts
 <ul>
   @for (item of lista(); track item.id) {
     <li>{{ item.nombre }}</li>
@@ -103,6 +106,7 @@ HTML
     <li>No hay elementos en la lista.</li>
   }
 </ul>
+```
 track (Obligatorio): Ahora Angular te obliga a decirle qué campo es el identificador único (como el ID). Esto ayuda a Angular a no tener que redibujar toda la lista si solo cambia un elemento.
 
 @empty: Es una maravilla. Es un bloque que se muestra automáticamente si la lista está vacía. Antes tenías que hacer un *ngIf="lista.length === 0" aparte.
@@ -111,12 +115,14 @@ track (Obligatorio): Ahora Angular te obliga a decirle qué campo es el identifi
 Ideal cuando tienes muchas condiciones posibles para una sola variable.
 
 HTML
-
+```ts
 @switch (rol()) {
   @case ('admin') { <p>Tienes control total</p> }
   @case ('editor') { <p>Puedes editar contenido</p> }
   @default { <p>Eres un espectador</p> }
 }
+
+```
 
 ## Rendimiento
 
